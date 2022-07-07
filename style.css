@@ -6,7 +6,7 @@
 
 h1{
        font-size: 60px;
-       color: rgb(0, 0, 224);  
+       color: rgb(185, 233, 14);  
        line-height: 300%;
        padding: 80px 60px;
 }
@@ -16,7 +16,7 @@ p{
     
 }
 
-}
+
 .half-width{
     width: 20%;
 }
@@ -51,6 +51,31 @@ p{
     border: 3px solid tomato;
 }
 
+
+.container1{
+    width: 100%;
+    height: auto;
+    display: flex;
+   
+    
+ }
+
+.box1{
+    width: 120%;
+    height: 350px;
+    background: rgb(236, 219, 219);
+    margin: 5%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 125px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
 .linkbutton{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -61,14 +86,39 @@ p{
     line-height: 600%;
 }
 
-.your{
-    display: flex;
-    gap: 50px;
-    margin-top: 100px;
-}
-.your img{
-    border: 3px solid burlywood;
-}
+
+
+
+
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid rgb(221, 19, 19);
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 100%;
+      background-color: #043106;
+      color: rgb(255, 255, 255);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+     
+  
+
+
 .suvive{
     display: flex;
     gap: 70px;
